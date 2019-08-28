@@ -5,15 +5,29 @@
         1,
         null,
         1,
+        2,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
         null,
         null
       ],
       "/Users/joshhemser/Makers/techtests/bank-tech-test-2/lib/account.rb": [
         1,
+        1,
+        null,
+        1,
+        1,
+        null,
         null,
         null
       ]
     },
-    "timestamp": 1567000700
+    "timestamp": 1567001236
   }
 }
