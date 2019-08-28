@@ -1,0 +1,19 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/joshhemser/Makers/techtests/bank-tech-test-2/spec/account_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/joshhemser/Makers/techtests/bank-tech-test-2/lib/account.rb": [
+        1,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1567000700
+  }
+}

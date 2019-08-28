@@ -13,6 +13,7 @@
 # it.
 #
 require 'simplecov'
+require 'simplecov-console'
 SimpleCov.start
 SimpleCov.formatter = SimpleCov::Formatter::Console
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
