@@ -13,7 +13,16 @@ context 'should create a record of a transaction' do
   it 'should take an input from account' do
     expect(transaction).to respond_to(:log).with(3).argument
   end
-
+  it 'should create a record from inputs' do
+    credit = 1000
+    debit = nil
+    balance = 1000
+    expect(transaction.log(credit, debit, balance)).to eq ({
+      credit: 1000,
+      debit: nil,
+      balance: 1000
+    })
+  end
 end
 
 end
