@@ -93,6 +93,7 @@
         null,
         null,
         null,
+        null,
         null
       ],
       "/Users/joshhemser/Makers/techtests/bank-tech-test-2/lib/transaction.rb": [
@@ -110,6 +111,6 @@
         null
       ]
     },
-    "timestamp": 1567069219
+    "timestamp": 1567069478
   }
 }
