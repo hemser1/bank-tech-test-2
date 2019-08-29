@@ -5,4 +5,8 @@ class Transaction
     @record = {}
   end
 
+  def log(credit, debit)
+
+  end
+
 end
