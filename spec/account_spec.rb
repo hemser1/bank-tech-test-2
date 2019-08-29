@@ -14,6 +14,14 @@ describe Account do
         account.deposit(2000)
         expect(account.balance).to eq 2000
       end
+      it 'should pass details to transactions' do
+        account.deposit(2000)
+        expect(account.transaction.record).to eq ({
+          credit: 2000,
+          debit: nil,
+          balance: 2000
+          })
+      end
     end
     describe '#withdraw' do
       it 'users can make withdrawals from their accounts' do
