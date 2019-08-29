@@ -13,6 +13,7 @@ class Account
 
   def withdraw(debit)
     @balance -= debit
+    @transaction.log(nil, debit, balance)
   end
 
 end

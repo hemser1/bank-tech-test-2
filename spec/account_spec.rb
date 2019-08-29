@@ -29,6 +29,15 @@ describe Account do
         account.withdraw(1000)
         expect(account.balance).to eq 1000
       end
+      it 'should pass details to transactions' do
+        account.deposit(5000)
+        account.withdraw(3000)
+        expect(account.transaction.record).to eq ({
+          credit: nil,
+          debit: 3000,
+          balance: 2000
+          })
+      end
     end
   end
 
