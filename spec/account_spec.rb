@@ -8,10 +8,6 @@ describe Account do
       it 'users should start with a balance of 0' do
         expect(account.balance).to eq 0
       end
-      it 'should return today\'s date when initialized' do
-        date = Time.now.strftime("%d/%m/%Y")
-        expect(account.date).to eq "#{date}"
-      end
     end
     describe '#deposit' do
       it 'users can make deposits into their accounts' do

@@ -3,10 +3,12 @@ class Account
 
   def initialize
     @balance = 0
+    @transaction = Transaction.new
   end
 
   def deposit(amount)
     @balance += amount
+
   end
 
   def withdraw(amount)
