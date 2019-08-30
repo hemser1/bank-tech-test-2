@@ -8,7 +8,10 @@ context 'should create a record of a transaction' do
     it 'should create an empty hash to store transaction in' do
       expect(transaction.record).to eq ({})
     end
-  end
+    it 'should create a Transaction History Object' do
+      expect(transaction.transaction_history.date).to eq (Time.now.strftime("%d/%m/%Y"))
+    end
+  end  
   describe '#log'
   it 'should take an input from account' do
     expect(transaction).to respond_to(:log).with(3).argument
