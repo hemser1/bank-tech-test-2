@@ -76,12 +76,21 @@
       "/Users/joshhemser/Makers/techtests/bank-tech-test-2/spec/transaction_history_spec.rb": [
         1,
         1,
-        2,
+        3,
         null,
         1,
         1,
         1,
         1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
         null,
         null,
         null,
@@ -92,8 +101,11 @@
         1,
         null,
         1,
-        10,
+        11,
         null,
+        null,
+        1,
+        1,
         null,
         null,
         null
@@ -157,6 +169,6 @@
         null
       ]
     },
-    "timestamp": 1567159735
+    "timestamp": 1567160572
   }
 }

@@ -8,5 +8,14 @@ subject(:transaction_history) { described_class.new }
         expect(transaction_history.statement).to eq []
       end
     end
+    describe '#add_record' do
+      it 'pushing a record to the statement array' do
+        record = { test: "test_record" }
+        transaction_history.add_record(record)
+        expect(transaction_history.statement).to eq [{
+          test: "test_record"
+          }]
+      end
+    end
   end
 end

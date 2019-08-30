@@ -5,5 +5,8 @@ class Transaction_history
     @statement = []
   end
 
+  def add_record(record)
+    @statement.push(record)
+  end
 
 end
